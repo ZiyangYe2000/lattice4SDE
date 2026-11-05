@@ -1,8 +1,10 @@
 # lattice4SDE
 
 This repository contains the code and data for the numerical experiments in
-version 10 of the paper. The experiments compare Monte Carlo, single randomized
-QMC, median-of-three QMC, and median-of-thirteen QMC for Euler approximations of
+*Randomly shifted lattice rules for SDEs with constant diffusion: error bounds
+uniform in time discretization and dimension* by Du Ouyang, Josef Dick, and
+Ziyang Ye. The experiments compare Monte Carlo, single randomized QMC,
+median-of-three QMC, and median-of-thirteen QMC for Euler approximations of
 time-dependent SDEs. The reference values are computed independently using
 scrambled Sobol rules. All models use the final time `T = 1`.
 
