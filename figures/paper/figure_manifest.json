@@ -1,0 +1,72 @@
+[
+  {
+    "name": "p2_methods_d8_m256",
+    "files": [
+      "p2_methods_d8_m256.pdf",
+      "p2_methods_d8_m256.png"
+    ]
+  },
+  {
+    "name": "p2_mesh_d8",
+    "files": [
+      "p2_mesh_d8.pdf",
+      "p2_mesh_d8.png"
+    ]
+  },
+  {
+    "name": "p2_dimension_m256",
+    "files": [
+      "p2_dimension_m256.pdf",
+      "p2_dimension_m256.png"
+    ]
+  },
+  {
+    "name": "p5_methods_d8_m256",
+    "files": [
+      "p5_methods_d8_m256.pdf",
+      "p5_methods_d8_m256.png"
+    ]
+  },
+  {
+    "name": "p5_mesh_d8",
+    "files": [
+      "p5_mesh_d8.pdf",
+      "p5_mesh_d8.png"
+    ]
+  },
+  {
+    "name": "p5_dimension_m256",
+    "files": [
+      "p5_dimension_m256.pdf",
+      "p5_dimension_m256.png"
+    ]
+  },
+  {
+    "name": "p3_dimension_m64",
+    "files": [
+      "p3_dimension_m64.pdf",
+      "p3_dimension_m64.png"
+    ]
+  },
+  {
+    "name": "p4_dimension_m64",
+    "files": [
+      "p4_dimension_m64.pdf",
+      "p4_dimension_m64.png"
+    ]
+  },
+  {
+    "name": "p3_mesh_d16",
+    "files": [
+      "p3_mesh_d16.pdf",
+      "p3_mesh_d16.png"
+    ]
+  },
+  {
+    "name": "p4_mesh_d16",
+    "files": [
+      "p4_mesh_d16.pdf",
+      "p4_mesh_d16.png"
+    ]
+  }
+]

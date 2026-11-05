@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "target": "fixed_euler_expectation",
+  "seed": 20260924,
+  "outer_replications": 2,
+  "methods": ["mc", "qmc1", "median3", "median13"],
+  "budgets": [39, 51, 67],
+  "slope_fit_budgets": [39, 51, 67],
+  "device": "cpu",
+  "dtype": "float32",
+  "reference_dtype": "float64",
+  "cpu_threads": 2,
+  "runtime": {"gpu_memory_fraction": 0.4, "max_chunk_points": 2048, "cpu_chunk_points": 256, "max_rules_per_batch": 2},
+  "output": "results/smoke",
+  "cases": [
+    {"case_id": "smoke-p2", "model": "kuramoto", "d": 4, "m": 8},
+    {"case_id": "smoke-p5", "model": "analytic_langevin", "d": 4, "m": 8},
+    {"case_id": "smoke-p3", "model": "dimension_uniform_aligned", "d": 4, "m": 8},
+    {"case_id": "smoke-p4", "reference_case_id": "smoke-p3", "model": "dimension_uniform_rotated", "d": 4, "m": 8}
+  ]
+}

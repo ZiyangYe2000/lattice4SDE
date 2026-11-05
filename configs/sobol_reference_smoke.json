@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "experiment_config": "smoke.json",
+  "seed": 20261029,
+  "scrambles": 2,
+  "points_per_scramble": 64,
+  "checkpoint_block_points": 16,
+  "max_chunk_points": 64,
+  "output": "results/sobol_reference_smoke"
+}

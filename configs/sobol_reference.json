@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "experiment_config": "production.json",
+  "seed": 20261029,
+  "scrambles": 16,
+  "points_per_scramble": 4194304,
+  "checkpoint_block_points": 65536,
+  "max_chunk_points": 4096,
+  "output": "results/sobol_reference"
+}
